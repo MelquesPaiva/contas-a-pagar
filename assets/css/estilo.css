@@ -1,0 +1,206 @@
+*{box-sizing: border-box; font-family: 'Open Sans', sans-serif;}
+
+body {margin: 0; padding: 0; background-color: #373f42; display: flex; align-items: center; justify-content: center; flex-direction: column; color:#2E2E2E;}
+
+ul{
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+	opacity: 0.85;
+	font-weight: bold;
+}
+a:hover {
+	opacity: 1;
+}
+.container {
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px;	
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 30px;
+	/*flex-direction: column;	*/
+}
+.containerLogin {
+	justify-content: center;
+}
+.container .titulo {	
+	font-size: 35px;
+	color: #ffffff;
+	text-align: center;
+	font-weight: bold;
+	/*margin-bottom: 30px;*/
+	padding: 30px;
+	border-radius: 20px;
+}
+.conta {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;		
+}
+.conta form {
+	padding: 20px;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border:1px solid #000;	
+	border-radius: 10px;
+	font-weight: bold;
+}
+.conta form input {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	padding: 10px;
+}
+.conta .botoes {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.botoes input {
+	margin-top: 20px;
+	font-weight: bold;
+	box-shadow: 4px 4px solid #000000;
+	cursor: pointer;
+	margin-right: 10px;
+}
+.botoes input:last-child {
+	margin-right:0px;
+}
+.login {
+	flex-direction: column;
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 20px;
+}
+.login form {
+	border-radius: 5px;
+	border: none;
+	border-bottom: 2px solid #d3d3d3;
+}
+.login form input:last-child {
+	cursor: pointer;
+}
+.login .opcoes {
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.login .opcoes a {
+	font-size: 12px;
+	margin-top: 5px;
+}
+.login .opcoes a:last-child {
+	font-size: 15px;
+}
+.menu {	
+	/*border: 1px solid #000000;*/
+	border-radius: 20px;
+	/*margin-bottom: 30px;*/
+	/*background-color: #ffffff;*/
+	/*flex-basis: 70%;*/
+}
+.menu ul {
+	display: flex;	
+}
+.menu ul li {
+	margin-right: 15px;
+}
+/*menu ul li:first-child {
+	margin-left: 0px;
+}
+.menu ul li:last-child {
+	margin-right: 0px;
+}*/
+.menu ul li a {
+	/*color: #373f42;*/
+	color: #ffffff;
+	border-radius: 20px;
+	padding: 10px;
+	font-size: 18px;
+}
+.menu ul li a:hover {
+	background-color: #ffffff;
+	color: #373f42;
+}
+.resultado {	
+	color: white;
+	text-align-last: center;
+}
+.btnVoltar {
+	padding: 20px;
+	background-color: #fff;
+	color: #000;
+	border-radius: 20px;
+}
+.voltar {
+	margin-bottom: 40px;
+}
+.tabelaConta {
+	width: 100%;
+	padding: 50px;
+}
+.tabelaConta table {
+	width: 100%;
+}
+.tabelaConta td {
+	padding: 12px;
+	color: #ffffff;
+	text-align: center;
+}
+.tabelaConta td a {
+	background-color: #ffffff;
+	color: #000;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 5px 10px;
+}
+#mes-nome {
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+.mesBusca,
+.valorBusca{
+	text-align: center;
+}
+.mesBusca form,
+.valorBusca form {
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 4px 4px solid #000000;
+}
+.mesBusca form input,
+.valorBusca form input {
+	margin-top: 10px;
+	padding: 5px;
+	border-radius: 5px;
+}
+.mesDado {
+	background-color: #ffffff;
+	font-weight: bold;	
+}
+.valorTotalMes {
+	margin-top: 20px;
+	background-color: #ffffff;
+	border-radius: 20px;
+	padding: 20px;	
+}
+.btnPagar {
+	
+}
